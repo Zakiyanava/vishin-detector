@@ -1,19 +1,29 @@
-AI Vishing Detector - Final Year Project
+# Voice-based OTP (Vishing) Detection System
 
-1. Install dependencies:
-   pip install -r requirements.txt
+## Project Overview
+This project is an **AI-based system to detect vishing (voice phishing) calls**. It analyzes voice calls to identify potential fraud attempts, especially those attempting to steal OTPs or sensitive information.
 
-2. Train model:
-   python train_model.py
+---
 
-3. Run main app:
-   python app.py
+## Features
+- **Voice Call Analysis**: Extracts features from recorded voice calls.  
+- **Fraud Detection**: Classifies calls as **vishing** or **safe**.  
+- **High Accuracy**: Uses Machine Learning and Deep Learning models to detect fraudulent calls.  
+- **Real-time Alerts**: (Optional) Notify users when a suspicious call is detected.  
 
-Speak a sentence like:
-   "Please give me your OTP"
-   or
-   "Your OTP is 123456. Do not share it"
+---
 
-4. The app will detect if it is a vishing attempt or not.
+## Technologies Used
+- **Programming Language**: Python  
+- **Libraries / Frameworks**:  
+  - Speech processing: `SpeechRecognition`, `librosa`  
+  - ML/DL: `Scikit-learn`, `TensorFlow`, `Keras`  
+  - Data processing: `Pandas`, `NumPy`  
+- **Tools**: Jupyter Notebook, Git, GitHub  
 
-Created by: [Your Name]
+---
+
+## Installation & Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/username/vishing-detector.git
