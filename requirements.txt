@@ -1,0 +1,4 @@
+speechrecognition
+scikit-learn
+pandas
+pyaudio
